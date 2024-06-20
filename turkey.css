@@ -1,0 +1,128 @@
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.video{
+    margin-left: 550px;
+}
+header nav ul li {
+    padding: 5px;
+    
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav img{
+    height: 8em;
+}
+#programme{
+    text-align: center;
+    background-color: rgb(76, 114, 138);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 20px 70px;
+
+
+}
+.main-content article{
+    width: 27%;
+    height:350px;
+    box-shadow: 0 4px 4px rgba(0,0,0, 0.2);
+
+    padding:2.5rem;
+    background-color:white ;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0, 0.125);
+    border-radius: 10px;
+    position:relative;
+}
+.main-content article img{
+    height:200px;
+    width:300px;    
+    border-radius: 4px 4px;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+.main-content article h2{
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.tete img{
+    
+    width:1300px;
+    height:600px;
+    margin-right: 10px;
+    margin-left: 80px;
+}
+#programme{
+    color:white;
+}
+#service{
+    color: white;
+    background-color:rgb(76, 114, 138); 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.tete h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    color:rgb(76, 114, 138)
+}
+.tete h2{
+    text-align: center;
+    color:rgb(2, 73, 118)
+}
+.tete ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:10px;
+    font-weight: bold;
+    font-size: large;
+}
+header{
+    text-decoration: none;
+}
+.service{
+    font-size: 20px;
+}
+#prix{
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+header{
+    background-color:rgb(76, 114, 138)
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+nav ul{
+    list-style: none;
+}

@@ -1,0 +1,102 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header nav ul li {
+    padding: 5px;
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav img{
+    height: 8em;
+}
+header{
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+
+}
+#titre{
+    text-align: center;
+    margin-top: 10px;
+    font-weight:bolder;
+    font-size: xx-large;
+}
+body{
+    margin: auto;
+}
+.nav-container ul li a {
+    text-decoration: none;
+
+}
+#contact{
+    text-align: center;
+    color:white;
+    font-size: 80px;
+}
+form {
+    max-width: 300px;
+    margin:0 auto
+
+}
+aside{
+    float:left;
+    margin-top: 200px;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.formulaire{
+    margin-left: 80px;
+}
+aside h2{
+    font-size: 15px;
+}
+.maps{
+    margin-top: 40px;
+    
+
+}
+footer{
+    padding-bottom:20px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+#fin{
+    margin-bottom: 10px;
+    color:rgb(34, 2, 111)
+}
+aside h1{
+    color:rgb(34, 2, 111)
+}
+#titre{
+    color:rgb(34, 2, 111)
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
